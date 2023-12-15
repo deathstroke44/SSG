@@ -64,6 +64,8 @@ How to use
 
 ```bash
 $ cd /path/to/project
+$ conan install . --output-folder=build --build=missing
+$ cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake
 $ mkdir -p build && cd build
 $ cmake .. && make -j
 ```
