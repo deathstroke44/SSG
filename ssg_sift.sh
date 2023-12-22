@@ -1,7 +1,7 @@
 DATASET_PATH=/data/kabir/similarity-search/dataset
 SIFT_PATH=$DATASET_PATH/sift
 INDEX_PATH=/data/kabir/similarity-search/models/SSG/indexes
-LOG_PATH=/data/kabir/similarity-search/models/SSG/indexes/logs
+LOG_PATH=/data/kabir/similarity-search/models/SSG/logs
 
 
 taskset --cpu-list 62-62 ./data/kabir/similarity-search/models/efanna_graph/tests/test_nndescent $SIFT_PATH/sift_base.fvecs $INDEX_PATH/sift_100nn.knng 100 100 12 10 100 > $LOG_PATH/efannlogsift1.txt
