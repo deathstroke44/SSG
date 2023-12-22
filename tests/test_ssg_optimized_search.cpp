@@ -7,6 +7,8 @@
 #include "index_random.h"
 #include "index_ssg.h"
 #include "util.h"
+#include<bits/stdc++.h>
+using namespace std;
 
 void save_result(char* filename, std::vector<std::vector<unsigned> >& results) {
   std::ofstream out(filename, std::ios::binary | std::ios::out);
@@ -17,6 +19,52 @@ void save_result(char* filename, std::vector<std::vector<unsigned> >& results) {
     out.write((char*)results[i].data(), GK * sizeof(unsigned));
   }
   out.close();
+}
+
+double getRecallAtR(std::vector<std::vector<unsigned> > res, const std::vector<std::vector<int>> &topnn, const int K) {
+  int nq = res.size();
+  double ans = 0.0;
+  for (int p_idx=0; p_idx<nq; p_idx++) {
+    for (int k_idx=0; k_idx<K; k_idx++) {
+      if (topnn[p_idx][k_idx] == res[p_idx][k_idx]) {
+        ans += 1;
+        break;
+      }
+    }
+  }
+  ans /= nq;
+  return ans;
+}
+
+std::vector<std::vector<int>> readIVecsFromExternal(std::string filepath, int N) {
+  FILE *infile = fopen(filepath.c_str(), "rb");
+  std::vector<std::vector<int>> dataset;
+  if (infile == NULL) {
+    std::cout << "File not found" << std::endl;
+    return dataset;
+  }
+  
+  int dimen;
+  while (true) {
+    if (fread(&dimen, sizeof(int), 1, infile) == 0) {
+      break;
+    }
+    if (dimen != N) {
+      std::cout << "N and actual dimension mismatch" << std::endl;
+      return dataset;
+    }
+    std::vector<int> v(dimen);
+    if (fread(v.data(), sizeof(int), dimen, infile) == 0) {
+      std::cout << "error when reading" << std::endl;
+    };
+    
+    dataset.push_back(v);
+  }
+
+  if (fclose(infile)) {
+    std::cout << "Could not close data file" << std::endl;
+  }
+  return dataset;
 }
 
 int main(int argc, char** argv) {
@@ -85,6 +133,9 @@ int main(int argc, char** argv) {
 
   std::chrono::duration<double> diff = e - s;
   std::cerr << "Search Time: " << diff.count() << std::endl;
+
+  vector<std::vector<int>> gt = readIVecsFromExternal(argv[8], 100);
+  std::cerr << "Recall: " << getRecallAtR(res, gt, K) << std::endl;
 
   save_result(argv[6], res);
 
