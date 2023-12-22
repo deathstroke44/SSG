@@ -80,14 +80,14 @@ int main(int argc, char** argv) {
     std::cerr << "Using Seed " << seed << std::endl;
   }
 
-  std::cerr << "Data Path: " << argv[1] << std::endl;
+  std::cout << "Data Path: " << argv[1] << std::endl;
 
   unsigned points_num, dim;
   float* data_load = nullptr;
   data_load = efanna2e::load_data(argv[1], points_num, dim);
   data_load = efanna2e::data_align(data_load, points_num, dim);
 
-  std::cerr << "Query Path: " << argv[2] << std::endl;
+  std::cout << "Query Path: " << argv[2] << std::endl;
 
   unsigned query_num, query_dim;
   float* query_load = nullptr;
@@ -132,10 +132,10 @@ int main(int argc, char** argv) {
   auto e = std::chrono::high_resolution_clock::now();
 
   std::chrono::duration<double> diff = e - s;
-  std::cerr << "Search Time: " << diff.count() << std::endl;
+  std::cout << "Search Time: " << diff.count() << std::endl;
 
   vector<std::vector<int>> gt = readIVecsFromExternal(argv[8], 100);
-  std::cerr << "Recall: " << getRecallAtR(res, gt, K) << std::endl;
+  std::cout << "Recall: " << getRecallAtR(res, gt, K) << std::endl;
 
   save_result(argv[6], res);
 
