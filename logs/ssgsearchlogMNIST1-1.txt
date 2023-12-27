@@ -1,0 +1,4 @@
+Data Path: /data/kabir/similarity-search/dataset/MNIST/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/MNIST/query.fvecs
+Search Time: 0.406467
+Recall: 0.98

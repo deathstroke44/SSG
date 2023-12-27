@@ -134,7 +134,7 @@ int main(int argc, char** argv) {
   std::chrono::duration<double> diff = e - s;
   std::cout << "Search Time: " << diff.count() << std::endl;
 
-  vector<std::vector<int>> gt = readIVecsFromExternal(argv[8], 100);
+  vector<std::vector<int>> gt = readIVecsFromExternal(argv[8], K);
   std::cout << "Recall: " << getRecallAtR(res, gt, K) << std::endl;
 
   save_result(argv[6], res);
