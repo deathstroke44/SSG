@@ -36,6 +36,39 @@ double getRecallAtR(std::vector<std::vector<unsigned> > res, const std::vector<s
   return ans;
 }
 
+double getMeanAveragePrecision(std::vector<std::vector<unsigned> > res, const std::vector<std::vector<int>> &topnn, const int K) {
+  int nq = res.size();
+  double ans = 0.0;
+
+  for (int p_idx=0; p_idx<nq; p_idx++) {
+    double ap = 0;
+    for (int r=1; r<=K; r++) {
+      bool isR_kExact = false;
+      for (int j=0; j<K; j++) {
+        if (res[p_idx][r-1] == topnn[p_idx][j]) {
+          isR_kExact = true;
+          break;
+        }
+      }
+      if (isR_kExact) {
+        int ct = 0;
+        for (int j=0; j<r; j++) {
+          for (int jj=0; jj<r; jj++) {
+            if (res[p_idx][j] == topnn[p_idx][jj]) {
+              ct++;
+              break;
+            }
+          }
+        }
+        ap += (double)ct/r;
+      }
+    }
+    ans += ap / K;
+  }
+  ans /= nq;
+  return ans;
+}
+
 std::vector<std::vector<int>> readIVecsFromExternal(std::string filepath, int N) {
   FILE *infile = fopen(filepath.c_str(), "rb");
   std::vector<std::vector<int>> dataset;
@@ -136,6 +169,7 @@ int main(int argc, char** argv) {
 
   vector<std::vector<int>> gt = readIVecsFromExternal(argv[8], K);
   std::cout << "Recall: " << getRecallAtR(res, gt, K) << std::endl;
+  std::cout << "MAP: " << getMeanAveragePrecision(res, gt, K) << std::endl;
 
   save_result(argv[6], res);
 
