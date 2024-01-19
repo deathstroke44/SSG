@@ -1,4 +1,4 @@
 L = 20, R = 50, Angle = 60
 KNNG = /data/kabir/similarity-search/models/SSG/indexes/millionSong_100nn.knng
 Degree Statistics: Max = 50, Min = 1, Avg = 10
-Build Time: 227.086
+Build Time: 186.075

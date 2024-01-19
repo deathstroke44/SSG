@@ -1,4 +1,5 @@
 Data Path: /data/kabir/similarity-search/dataset/cifar/base.fvecs
 Query Path: /data/kabir/similarity-search/dataset/cifar/query.fvecs
-Search Time: 0.404835
+Search Time: 0.411914
 Recall: 1
+MAP: 0.972954

@@ -24,4 +24,4 @@ iter: 10
 recall : 0.9011
 iter: 11
 1000000
-Time cost: 4143.38
+Time cost: 2324.73
