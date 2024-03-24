@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/sift/sift_base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/sift/sift_query.fvecs
+Search Time: 14.7198
+Recall: 0.9994
+MAP: 0.97605

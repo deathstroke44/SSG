@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/ukbench/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/ukbench/query.fvecs
+Search Time: 0.0977364
+Recall: 0.985
+MAP: 0.949065

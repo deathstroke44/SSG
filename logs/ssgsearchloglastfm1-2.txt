@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/lastfm/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/lastfm/query.fvecs
+Search Time: 0.0452804
+Recall: 0.99
+MAP: 0.969387

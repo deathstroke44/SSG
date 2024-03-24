@@ -1,0 +1,4 @@
+L = 100, R = 50, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/audio1_100nn.knng
+Degree Statistics: Max = 50, Min = 1, Avg = 21
+Build Time: 20.1633

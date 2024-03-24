@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/word2vec/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/word2vec/query.fvecs
+Search Time: 1.67885
+Recall: 0.752
+MAP: 0.55458

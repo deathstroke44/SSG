@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/sun/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/sun/query.fvecs
+Search Time: 0.452055
+Recall: 1
+MAP: 0.976693
