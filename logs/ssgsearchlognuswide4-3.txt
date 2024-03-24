@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/nuswide/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/nuswide/query.fvecs
+Search Time: 0.322168
+Recall: 0.82
+MAP: 0.635726

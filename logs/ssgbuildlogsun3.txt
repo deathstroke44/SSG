@@ -1,0 +1,4 @@
+L = 25, R = 50, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/sun3_100nn.knng
+Degree Statistics: Max = 50, Min = 1, Avg = 11
+Build Time: 25.0702

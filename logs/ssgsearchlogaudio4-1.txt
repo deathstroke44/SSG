@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/audio/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/audio/query.fvecs
+Search Time: 0.0515401
+Recall: 0.965
+MAP: 0.948829

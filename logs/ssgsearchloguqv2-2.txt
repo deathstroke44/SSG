@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/uqv/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/uqv/query.fvecs
+Search Time: 7.28987
+Recall: 0.8954
+MAP: 0.787758

@@ -1,27 +1,27 @@
 data dimension: 512
 recall : 0.0046
 iter: 0
-recall : 0.0269
+recall : 0.0334
 iter: 1
-recall : 0.1529
+recall : 0.1742
 iter: 2
-recall : 0.4133
+recall : 0.3826
 iter: 3
-recall : 0.691
+recall : 0.4906
 iter: 4
-recall : 0.8608
+recall : 0.5
 iter: 5
-recall : 0.9359
+recall : 0.5
 iter: 6
-recall : 0.9653
+recall : 0.5
 iter: 7
-recall : 0.978
+recall : 0.5
 iter: 8
-recall : 0.984
+recall : 0.5
 iter: 9
-recall : 0.9867
+recall : 0.5
 iter: 10
-recall : 0.9877
+recall : 0.5
 iter: 11
 79106
-Time cost: 133.026
+Time cost: 65.2617

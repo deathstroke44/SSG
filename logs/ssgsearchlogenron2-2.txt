@@ -1,5 +1,5 @@
 Data Path: /data/kabir/similarity-search/dataset/enron/base.fvecs
 Query Path: /data/kabir/similarity-search/dataset/enron/query.fvecs
-Search Time: 0.697762
-Recall: 0.935
-MAP: 0.903158
+Search Time: 0.443679
+Recall: 0.925
+MAP: 0.859951

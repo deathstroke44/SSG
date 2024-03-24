@@ -1,0 +1,4 @@
+L = 25, R = 50, Angle = 30
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/notre4_100nn.knng
+Degree Statistics: Max = 50, Min = 2, Avg = 40
+Build Time: 1002.54

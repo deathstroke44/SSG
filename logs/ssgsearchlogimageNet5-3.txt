@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/imageNet/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/imageNet/query.fvecs
+Search Time: 0.128387
+Recall: 0.83
+MAP: 0.638667

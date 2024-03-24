@@ -1,0 +1,4 @@
+L = 25, R = 50, Angle = 30
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/enron4_100nn.knng
+Degree Statistics: Max = 50, Min = 1, Avg = 40
+Build Time: 6520.35

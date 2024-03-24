@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/glove/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/glove/query.fvecs
+Search Time: 0.0646592
+Recall: 0.435
+MAP: 0.33346

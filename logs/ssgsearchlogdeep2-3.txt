@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/deep/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/deep/query.fvecs
+Search Time: 0.198499
+Recall: 0.97
+MAP: 0.865797

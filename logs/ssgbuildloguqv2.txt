@@ -1,0 +1,4 @@
+L = 50, R = 25, Angle = 20
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/uqv2_100nn.knng
+Degree Statistics: Max = 25, Min = 1, Avg = 24
+Build Time: 2853.37

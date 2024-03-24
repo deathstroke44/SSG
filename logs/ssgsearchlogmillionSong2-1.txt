@@ -1,5 +1,5 @@
 Data Path: /data/kabir/similarity-search/dataset/millionSong/base.fvecs
 Query Path: /data/kabir/similarity-search/dataset/millionSong/query.fvecs
-Search Time: 0.240894
-Recall: 0.965
-MAP: 0.907491
+Search Time: 0.128634
+Recall: 0.88
+MAP: 0.73082
