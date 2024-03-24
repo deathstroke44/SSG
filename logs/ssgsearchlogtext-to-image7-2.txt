@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/text-to-image/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/text-to-image/query.fvecs
+Search Time: 0.0684222
+Recall: 0.94
+MAP: 0.855832

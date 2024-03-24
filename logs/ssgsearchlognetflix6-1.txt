@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/netflix/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/netflix/query.fvecs
+Search Time: 0.661369
+Recall: 0.993
+MAP: 0.973956

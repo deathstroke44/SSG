@@ -1,0 +1,4 @@
+L = 25, R = 15, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/space1V6_100nn.knng
+Degree Statistics: Max = 15, Min = 1, Avg = 14
+Build Time: 350.154

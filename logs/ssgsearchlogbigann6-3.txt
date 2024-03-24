@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/bigann/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/bigann/query.fvecs
+Search Time: 0.0906839
+Recall: 0.99
+MAP: 0.842762

@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/seismic1m/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/seismic1m/query.fvecs
+Search Time: 0.0842982
+Recall: 0.33
+MAP: 0.298813
