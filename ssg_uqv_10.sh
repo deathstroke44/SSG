@@ -1,6 +1,6 @@
 DATASET_PATH=/data/kabir/similarity-search/dataset
 DATASET_NAME=uqv
-ID=9
+ID=10
 DATA_PATH=$DATASET_PATH/${DATASET_NAME}
 BASE_PATH=$DATA_PATH/base.fvecs
 QUERY_PATH=$DATA_PATH/query.fvecs
