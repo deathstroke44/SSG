@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/astro1m/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/astro1m/query.fvecs
+Search Time: 0.0621477
+Recall: 0.39
+MAP: 0.209504

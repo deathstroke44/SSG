@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/nytimes/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/nytimes/query.fvecs
+Search Time: 0.0269052
+Recall: 0.32
+MAP: 0.0783304

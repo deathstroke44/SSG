@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/tiny5m/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/tiny5m/query.fvecs
+Search Time: 1.45029
+Recall: 0.47
+MAP: 0.297776

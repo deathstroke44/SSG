@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/sald1m/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/sald1m/query.fvecs
+Search Time: 0.0411447
+Recall: 0.64
+MAP: 0.575028
