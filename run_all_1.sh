@@ -1,0 +1,1 @@
+taskset --cpu-list 11-11 bash ssg_etsh.sh & taskset --cpu-list 12-12 bash ssg_geofon.sh & taskset --cpu-list 13-13 bash ssg_instancegm.sh & taskset --cpu-list 14-14 bash ssg_lendb.sh & taskset --cpu-list 15-15 bash ssg_stead.sh & taskset --cpu-list 16-16 bash ssg_txed.sh & taskset --cpu-list 17-17 bash ssg_vcseis.sh & echo 1
