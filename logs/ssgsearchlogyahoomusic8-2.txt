@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/yahoomusic/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/yahoomusic/query.fvecs
+Search Time: 0.0708852
+Recall: 0.97
+MAP: 0.831186

@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/space1V/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/space1V/query.fvecs
+Search Time: 0.0591071
+Recall: 0.58
+MAP: 0.216936

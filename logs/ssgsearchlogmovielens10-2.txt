@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/movielens/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/movielens/query.fvecs
+Search Time: 0.733662
+Recall: 0.986
+MAP: 0.925509
