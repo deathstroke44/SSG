@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/Yelp/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/Yelp/query.fvecs
+Search Time: 0.0220003
+Recall: 0.35
+MAP: 0.242105

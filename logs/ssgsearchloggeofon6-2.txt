@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/geofon/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/geofon/query.fvecs
+Search Time: 0.0457756
+Recall: 0.99
+MAP: 0.971771

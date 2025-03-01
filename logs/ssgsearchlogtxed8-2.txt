@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/txed/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/txed/query.fvecs
+Search Time: 0.0680817
+Recall: 0.41
+MAP: 0.241612

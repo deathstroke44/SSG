@@ -1,0 +1,4 @@
+L = 100, R = 50, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/ethz1_100nn.knng
+Degree Statistics: Max = 50, Min = 1, Avg = 10
+Build Time: 14.3074

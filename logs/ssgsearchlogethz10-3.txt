@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/ethz/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/ethz/query.fvecs
+Search Time: 0.0476251
+Recall: 0.86
+MAP: 0.860987

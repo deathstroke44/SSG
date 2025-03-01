@@ -1,0 +1,4 @@
+L = 15, R = 10, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/lendb8_100nn.knng
+Degree Statistics: Max = 10, Min = 1, Avg = 4
+Build Time: 2386.16

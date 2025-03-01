@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/vcseis/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/vcseis/query.fvecs
+Search Time: 0.0592839
+Recall: 0.54
+MAP: 0.481872

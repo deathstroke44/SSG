@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/lendb/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/lendb/query.fvecs
+Search Time: 0.0557804
+Recall: 0.93
+MAP: 0.818244

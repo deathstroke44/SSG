@@ -1,0 +1,4 @@
+L = 100, R = 50, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/instancegm1_100nn.knng
+Degree Statistics: Max = 49, Min = 1, Avg = 11
+Build Time: 290.965

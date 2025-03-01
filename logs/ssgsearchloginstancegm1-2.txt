@@ -1,0 +1,5 @@
+Data Path: /data/kabir/similarity-search/dataset/instancegm/base.fvecs
+Query Path: /data/kabir/similarity-search/dataset/instancegm/query.fvecs
+Search Time: 0.0522266
+Recall: 0.88
+MAP: 0.841236

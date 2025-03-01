@@ -1,0 +1,27 @@
+data dimension: 256
+recall : 0.002
+iter: 0
+recall : 0.0227
+iter: 1
+recall : 0.1433
+iter: 2
+recall : 0.4055
+iter: 3
+recall : 0.6419
+iter: 4
+recall : 0.773
+iter: 5
+recall : 0.822
+iter: 6
+recall : 0.8433
+iter: 7
+recall : 0.8592
+iter: 8
+recall : 0.8717
+iter: 9
+recall : 0.8802
+iter: 10
+recall : 0.8898
+iter: 11
+160178
+Time cost: 219.249

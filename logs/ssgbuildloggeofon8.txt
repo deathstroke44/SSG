@@ -1,0 +1,4 @@
+L = 15, R = 10, Angle = 60
+KNNG = /data/kabir/similarity-search/models/SSG/indexes/geofon8_100nn.knng
+Degree Statistics: Max = 10, Min = 1, Avg = 6
+Build Time: 69.2169
